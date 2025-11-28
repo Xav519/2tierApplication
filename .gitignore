@@ -1,0 +1,49 @@
+# =========================
+# Terraform files
+# =========================
+
+# Local .terraform directories (provider binaries, plugins, etc.)
+.terraform/
+
+# Terraform state files
+*.tfstate
+*.tfstate.*
+
+# Lock info files created during terraform apply
+.terraform.tfstate.lock.info
+
+# Crash log files
+crash.log
+crash.*.log
+
+# Override files (local modifications that shouldn't be committed)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Plan output files
+*.tfplan
+
+# Graph output files
+*.dot
+
+# =========================
+# AWS Lambda files
+# =========================
+
+# Optional: ignore compiled Python files
+__pycache__/
+*.pyc
+
+# =========================
+# Sensitive data
+# =========================
+
+# Terraform variable files with secrets
+*.tfvars
+*.tfvars.json
